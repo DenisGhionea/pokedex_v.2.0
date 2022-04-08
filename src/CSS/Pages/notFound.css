@@ -1,0 +1,21 @@
+.content404 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    text-align: center;
+}
+
+.content404 img {
+    max-width: 500px;
+    padding: 40px;
+}
+
+.content-404 > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}

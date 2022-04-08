@@ -1,0 +1,49 @@
+.pokemon-evolutions-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    margin: 0;
+    width: 1050px;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+.evolution-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    min-width: 250px;
+    padding: 10px 0;
+}
+
+
+.evolution-wrapper:hover {
+    border-radius: 10px;
+}
+
+.evolution-wrapper {
+    color: var(--black  );
+
+    transition: background-color .3s, border-radius .2s;
+}
+
+.evolution-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.evolution-id {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.evolution-types-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

@@ -1,0 +1,18 @@
+.type-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 7px;
+
+    background-color: var(--white);
+
+    color: var(--marine);
+}
+
+.type-icon {
+    width: 15px;
+}
